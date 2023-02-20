@@ -13,3 +13,32 @@
  *= require_tree .
  *= require_self
  */
+
+.container {
+  margin-top: 10px;
+}
+
+.container h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+
+.container h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 10px;
+  width: 500px;
+}
+
+.sbt-button {
+padding: 15px;
+background-color: blue;
+color: white;
+border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
+}

@@ -1,8 +1,9 @@
 <div class="container">
   <h1>Stupid Coaching</h1>
-  <h4>Ask your coach anything</h4>
+  <h2>Ask your coach anything</h2>
+
+  <form action="/answer" data-turbo="false">
+    <input type="text" name="question" class="input">
+    <input type="submit" value="Ask!" class="sbt-button">
+  </form>
 </div>
-<form action="/answer" data-turbo="false">
-  <input type="text" name="question">
-  <input type="submit" value="Ask!">
-</form>
